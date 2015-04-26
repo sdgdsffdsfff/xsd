@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns="https://raw.githubusercontent.com/spccold/xsd/master"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="https://raw.githubusercontent.com/spccold/xsd/master"
+	elementFormDefault="qualified" attributeFormDefault="unqualified">
+
+	<xsd:element name="geek">
+		<xsd:complexType>
+			<xsd:attribute name="name" type="xsd:string" />
+			<xsd:attribute name="age" type="xsd:int" />
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>
