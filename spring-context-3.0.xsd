@@ -6,6 +6,7 @@
 	<xsd:element name="geek">
 		<xsd:complexType>
 			<xsd:attribute name="name" type="xsd:string" />
+			<xsd:attribute name="age" type="xsd:int" />
 		</xsd:complexType>
 	</xsd:element>
 </xsd:schema>
